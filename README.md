@@ -1,16 +1,7 @@
-[![codecov](https://codecov.io/gh/sylleryum/kafka-microservices-with-saga/branch/main/graph/badge.svg?token=66D2JP4X2K)](https://codecov.io/gh/sylleryum/kafka-microservices-with-saga)
-![example workflow](https://github.com/sylleryum/kafka-microservices-with-saga/actions/workflows/workflow.yml/badge.svg)
-
 # Microservices with Kafka and Saga pattern using Spring boot
 This project simulates a system for processing orders (i.e., a purchase) of items (E.g.: an order of a fridge and a camera) which is constituted of 4 microservices: order, stock, payment and notification service.
-## High level architecture:
-<p align="center">
-<img src="https://raw.githubusercontent.com/sylleryum/kafka-microservices-with-saga/main/resources/readme-images/architecture.png" alt="" width="50%"/>
-</p>
 
 **Note:** as the main objective of this project is to demonstrate Kafka, majority of microservice patterns are ignored as well as some best practices for simplicity/readability’s sake (E.g.: Transactional outbox and coding to the interface).
-
-## Getting started / Installation:
 
 ### Option 1: Running locally
 - Clone this repo.
